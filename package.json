@@ -1,0 +1,38 @@
+{
+	"name": "jsx-trim",
+	"version": "0.1.0",
+	"license": "MIT",
+	"description": "Clean up your html by trimming consecutive whitespaces in classnames.",
+	"author": {
+		"name": "Sam Apostel",
+		"email": "sam@spatie.be",
+		"url": "https://github.com/Sam-Apostel"
+	},
+	"bugs": {
+		"url": "https://github.com/spatie/jsx-trim/issues"
+	},
+	"homepage": "https://github.com/spatie/jsx-trim#readme",
+	"keywords": [
+		"react",
+		"jsx",
+		"transform",
+		"whitespace",
+		"className",
+		"classList",
+		"babel",
+		"trim"
+	],
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"jsx-runtime.js",
+		"jsx-dev-runtime.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/spatie/jsx-trim.git"
+	},
+	"peerDependencies": {
+		"react": "^16.9.0 || ^17.0.0 || ^18.0.0"
+	}
+}
