@@ -1,6 +1,6 @@
 {
 	"name": "jsx-trim",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"license": "MIT",
 	"description": "Clean up your html by trimming consecutive whitespaces in classnames.",
 	"author": {
