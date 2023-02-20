@@ -32,7 +32,17 @@
 		"type": "git",
 		"url": "git+https://github.com/spatie/jsx-trim.git"
 	},
+	"scripts": {
+		"prettier": "prettier --write .",
+		"patch": "npm run prettier && npm version patch",
+		"minor": "npm run prettier && npm version minor",
+		"major": "npm run prettier && npm version major",
+		"publish": "npm run publish"
+	},
 	"peerDependencies": {
 		"react": "^16.9.0 || ^17.0.0 || ^18.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.4"
 	}
 }
